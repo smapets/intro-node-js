@@ -28,3 +28,5 @@ showUserProfile = (userId, cb) => {
     cb(user)
   })
 }
+
+module.exports={showPostsForCurrentUser,showUserProfile};
